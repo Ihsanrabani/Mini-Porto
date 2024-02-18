@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+/* content/main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.title-main {
+    position: absolute;
+    margin-top: 130px;
+}
+
+.p-main {
+    position: absolute;
+    margin-top: 180px;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+/* list of item */
+
+.part-1 {
+    margin-top: 330px;
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 7px;
+}
+
+.part-2,
+.part-3 {
+    margin-top: 330px;
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 7px;
+    margin-left: 350px;
+}
+
+.line-part {
+    margin-top: 5px;
+    width: 120px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: black;
+}
+
+ul {
+    margin-top: 5px;
+}
+
+.li-item {
+    list-style: disc;
+    margin-left: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* cards */
+
+/* .cards {
+    display: flex;
+    margin-left: 150px;
+}
+
+.card {
+    border: 3px solid #333;
+    border-radius: 8px;
+    height: 200px;
+    width: 170px;
+    margin-top: 330px;
+    margin-right: 100px;
+}
+
+.title-card {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.icon-sl {
+    margin-left: 25px;
+} */
+
+footer {
+    position: fixed;
+    bottom: .1px;
+}
+
